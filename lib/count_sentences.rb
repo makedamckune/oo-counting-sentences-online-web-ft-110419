@@ -31,7 +31,7 @@ class String
   def count_sentences
     "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   
-  self.split(/\.|\?|!/).length
+  self
   
   puts count_sentences
   end
