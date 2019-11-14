@@ -32,8 +32,6 @@ class String
     "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   
   self.strip.split(/\w[?!.]/).length
-  
-  puts count_sentences
   end
 end
 
